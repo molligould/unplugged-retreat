@@ -199,7 +199,7 @@ address {
       flex-flow: row-wrap;
       width: 60%;
       font-size: 1.125em;
-      font-weight: 700;
+      font-weight: 700px;
       text-transform: uppercase;
 
     }
@@ -239,9 +239,17 @@ address {
     }
 
     footer .social-icons p {
+      background-color: #527158;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    footer .social-icons p i {
+      font-size: 1.3125em;
     }
 
     footer .copyright {
