@@ -686,6 +686,11 @@ address {
         .features article {
             flex-basis: 33%; 
         }
+
+        .features i {
+          font-size: 3.75em;
+                margin-bottom: 40px;
+        }
     
         /* Reviews */ 
         .reviews article div {
